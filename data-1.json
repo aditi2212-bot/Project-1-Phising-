@@ -1,5 +1,5 @@
-{
-  "name": "Alice",
-  "email": "alice@example.com",
-  "phone": "1234567890"
-}
+import datetime
+time = "2020-02-25T00:02:43.000Z"
+date = datetime.datetime.strptime(time, '%Y-%m-%dT%H:%M:%S.%fZ')
+timestamp = str((date - datetime.datetime(1970, 1, 1)).total_seconds()*1000)
+print(timestamp[:-2])
