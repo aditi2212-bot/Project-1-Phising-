@@ -1,0 +1,8 @@
+from datetime import datetime
+
+my_iso_timestamp = "2020-02-25T00:02:43.000Z"
+s_since_epoch = datetime.fromisoformat(my_iso_timestamp).timestamp()
+
+# datetime.timestamp returns a float - the number of seconds since epoch 
+# as the integer part and microseconds and the fraction.
+ms_since_epoch = int(s_since_epoch * 1000)
