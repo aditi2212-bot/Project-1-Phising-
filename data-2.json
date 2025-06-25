@@ -1,0 +1,6 @@
+import dateutil.parser
+
+time = "2020-02-25T00:02:43.000Z"
+parsed_time = dateutil.parser.parse(time)
+timestamp = parsed_time.timestamp() * 1000
+return str(int(timestamp))
