@@ -1,4 +1,5 @@
-[!Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1h1SAxmkktlaH-FdkzTrkwG1XrHyVNJN_?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1h1SAxmkktlaH-FdkzTrkwG1XrHyVNJN_?usp=sharing)
+
 #  Phishing Website Detection using Machine Learning  
 
 This project was completed as part of my **Internship at Global Next Consulting India Pvt. Ltd.**  
